@@ -8,8 +8,8 @@ export default function Weather(){
     setLoaded(true)
 setWeather(
   {
-  humidity:response.data.main.humidity,
-  temperature:response.data.main.temp,
+  humidity :response.data.main.humidity,
+  temperature: response.data.main.temp,
 description:response.data.main.description,
 Wind:response.data.main.wind,
 
